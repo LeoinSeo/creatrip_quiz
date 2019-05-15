@@ -1,0 +1,32 @@
+{
+  "name": "creatrip-assignement",
+  "version": "1.0.0",
+  "description": "Assignement for Creatrip",
+  "author": "Creatrip",
+  "private": true,
+  "scripts": {
+    "dev:web": "cross-env NODE_ENV=development SERVER_MODE=web nuxt --config-file nuxt.config.js",
+    "dev:api": "cross-env NODE_ENV=development webpack --config ./api/webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "nuxt": "^2.4.5",
+    "sequelize": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "clean-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-nuxt": "^0.1.3",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
